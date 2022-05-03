@@ -4,7 +4,6 @@
 body {
   display: flex;
   width: 100vw;
-
 }
 
 header {
@@ -15,7 +14,6 @@ header {
   width: $t_width;
   flex-direction: column;
   padding: 10vh 7vw 10vh 6vw;
-
   .title_up {
     height: 55%;
     display: flex;
@@ -27,13 +25,11 @@ header {
       text-transform: uppercase;/* ??? */
       letter-spacing: 5px;/* 글자 옆으로 늘려줌 */
     }
-
   }
   .title_down {
     height: 60%;
     display: flex;
     width: $t_width;
- 
     justify-content: space-around;
     flex-direction: column;
     p:nth-child(1) {
@@ -77,7 +73,7 @@ main {
        padding: 10vh 5vw 0px 5vw;
   }
   width: 42vw;
-  height: 300vh;
+  height: 290vh;
   color: white;
   p {
     font-size: 20px;
